@@ -1,0 +1,28 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px 200px 200px 1fr;
+    grid-template-rows: 75px 1200px 35px;
+}
+img {
+    width: 190px;
+}
+.design-header-grid {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.block-1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.block-1 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.block-3 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.footer-bottom {
+    grid-column: 1/6;
+    grid-row: 3/4;
+}
