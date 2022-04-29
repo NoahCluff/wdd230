@@ -31,7 +31,7 @@ div {
 }
 
 .design-header-grid {
-    grid-column: 1/6;
+    grid-column: 1/-1;
     grid-row: 1/2;
     text-align: center;
     background-color: #0A2032;
@@ -69,7 +69,7 @@ div {
     grid-row: 3/4;
 }
 .footer-bottom {
-    grid-column: 1/6;
+    grid-column: 1/-1;
     grid-row: 4/5;
     text-align: center;
     background-color: #0A2032;
