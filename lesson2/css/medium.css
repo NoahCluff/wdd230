@@ -1,9 +1,7 @@
 @media only screen and (max-width:64em) and (min-width:32.5em) {
     .main-grid {
-        display: grid;
         grid-template-columns: 1fr 200px 200px 1fr;
         grid-template-rows: 160px 80px 1350px 80px 1300px 60px;
-        column-gap: 15px;
     }
     .head-two {
         grid-column: 3/4;
