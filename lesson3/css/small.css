@@ -2,7 +2,8 @@
 
 h1, h2, h3 { font-family: 'Montserrat', 'Open Sans', sans-serif; }
 
-p, a { font-family: 'Roboto', 'Open Sans', sans-serif; }
+.main-text ul, p, a { font-family: 'Roboto', 'Open Sans', sans-serif; }
+
 
 
 header,
