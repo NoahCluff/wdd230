@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+h1, h2, h3 { font-family: 'Montserrat', 'Open Sans', sans-serif; }
+
+ul, p, a { 
+	font-family: 'Roboto', 'Open Sans', sans-serif; 
+}
+header {
+	background-color: #EFE9CE;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.titledate {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.titledate p, .titledate h2 {
+	margin: 5px;
+}
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	width: 80%;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 0;
+}
+nav ul li a {
+
+	display: block;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+a:hover {
+	background-color: white;
+	color: black;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.responsive li {
+	display: block;
+}
+
+img {
+	max-height: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+header p {
+	padding-right: 10px;
+}
+
+footer {
+	background-color: #EFE9CE;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+footer img {
+	padding-bottom: 10px;
+}
+main {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+#hero, #event, #weather, #join, #news, #spotlight {
+	margin: 10px;
+	padding: 10px;
+	display: block;
+	background-color: #efe9ce97;
+	min-height: 200px;
+	min-width: 90%;
+}
+#spotlight {
+	min-height: 450px;
+	min-width: 90%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+#spot1, #spot2, #spot3 {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	height: 200px;
+	margin: 0;
+	padding: 10px;
+}
+#spot3 {
+	display: none;
+}
+
+
