@@ -23,3 +23,9 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
 document.getElementById("thedate").innerHTML = fulldateUK;
+
+if (now.getDay() == 1 || now.getDay() == 2) {
+	document.getElementById('meetandgreet').style.display = "flex";
+} else {
+	document.getElementById('meetandgreet').style.display = "none";
+};
