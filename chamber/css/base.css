@@ -70,7 +70,7 @@ nav ul li a:hover {
 	display: block;
 }
 
-img {
+header img {
 	max-height: 100px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -134,5 +134,46 @@ main {
 #spot3 {
 	display: none;
 }
-
+#hero {
+	position: relative;
+	text-align: center;
+}
+#hero h2 {
+	border-radius: 5px;
+	position: absolute;
+	top: 8px;
+	left: 30px;
+	background-color: #EFE9CE;
+	padding: 5px;
+	border: 3px solid rgba(0, 0, 0, 0.9);
+}
+#hero p {
+	border-radius: 5px;
+	position: absolute;
+	bottom: 8px;
+	left: 10%;
+	right: 10%;
+	background-color: #EFE9CE;
+	padding: 5px;
+	border: 3px solid rgba(0, 0, 0, 0.9);
+}
+picture img {
+	min-width: 100%;
+}
+#weather h2 {
+	text-align: center;
+}
+#description {
+	text-transform: capitalize;
+	text-align: center;
+}
+#temperature {
+	text-align: center;
+}
+#windspeed {
+	text-align: center;
+}
+#windchill {
+	text-align: center;
+}
 
