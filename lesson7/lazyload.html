@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lazy Loading</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A page to demonstrate delayed loading of images."/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+      <main>
+          <h1>Progressive Loading of Images</h1>
+          <picture>
+            <img src="images/placeholder.png" data-src="images/breakfast.png" alt="breakfast food">
+          </picture>
+          <picture>
+            <img src="images/placeholder.png" data-src="images/brunch.png" alt="brunch food">
+          </picture>
+          <picture>
+            <img src="images/placeholder.png" data-src="images/lunch.png" alt="lunch food">
+          </picture>
+          <picture>
+            <img src="images/placeholder.png" data-src="images/linner.png" alt="linner food">
+          </picture>
+          <picture>
+            <img src="images/placeholder.png" data-src="images/dinner.png" alt="dinner food">
+          </picture>
+      </main>
+      <script src="loading.js"></script>
+  </body>
+</html>
