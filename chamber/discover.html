@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Arco Chamber of Commerce</title>
+    <title>Discover Arco</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="arcochamber.com A resource for residents, visitors, and businesses in the city of Arco, Idaho"/>
+    <meta name="description" content="Arco Chamber of Commerce site discover page. Discover many events, organizations, and much more."/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/medium.css"/>
@@ -46,43 +46,19 @@
       <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
       <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
       </header>
-      <main>
-        <div id="hero">
-            <picture>
-                <source media="(min-width: 60em)" srcset="images/LARGE.jpg"></source>
-                <source media="(min-width: 37.5em)" srcset="images/MEDIUM.jpg"></source>
-                <img src="images/SMALL.jpg" alt="hero image">
-            </picture>
-            <h2>Arco Chamber of Commerce</h2>
-            <p>
-                Welcome to Arco, Idaho! Join the local community for fun events, charitable activities, 
-                and much more!
-            </p>
-        </div>
-        <div id="event">
-            <h2>Event</h2>
-        </div> 
-        <div id="weather">
-            <h2>Weather <br>
-                _____________</h2>
-            
-            <p id="description"></p>
-            <p id="temperature"></p>
-            <p id="windspeed"></p>
-            <p id="windchill"></p>
-        </div>
-        <div id="join">
-            <h2>Join</h2>
-        </div>
-        <div id="news">
-            <h2>News Release</h2>
-        </div>
-        <div id="spotlight">
-            <h2 id="spot1">Spotlight 1</h2>
-            <h2 id="spot2">Spotlight 2</h2>
-            <h2 id="spot3">Spotlight 3</h2>
-        </div>
-
+      <main class="discovermain">
+        <p>Number of days since last visit: <span class="days"></span></p>
+        <h1>Discover Arco, Idaho</h1>
+        <img src="images/placeholder.png" data-src="images/arco1.jpg" alt="landscape">
+        <p>Arco, Idaho is home to a very iconic and beautiful natural landscape.</p>
+        <img src="images/placeholder.png" data-src="images/arco2.jpg" alt="nuclear history">
+        <p>The first city in the world to be powered by nuclear energy is Arco, Idaho.</p>
+        <img src="images/placeholder.png" data-src="images/arco3.jpg" alt="downtown">
+        <p>Come and see our beautiful and historic downtown area.</p>
+        <img src="images/placeholder.png" data-src="images/arco4.jpg" alt="pickle's place restaurant">
+        <p>Arco is home to many unique small business and restaurants, like Pickle's Place</p>
+        <img src="images/placeholder.png" data-src="images/arco5.jpg" alt="">
+        <p>Observe preserved historical sites as if you just came out of a time machine.</p>
       </main>
       <footer>
         <div>City of Arco, 302 W Grand Ave. Arco, ID 83213</div>
@@ -95,5 +71,7 @@
     </footer>
     <script src="js/sitescript.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/dayssincevisit.js"></script>
   </body>
 </html>

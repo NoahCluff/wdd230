@@ -177,4 +177,18 @@ picture img {
 #windchill {
 	text-align: center;
 }
-
+.discovermain {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.discovermain img {
+	margin-top: 15px;
+	max-width: 90%;
+}
+.discovermain p {
+	padding-bottom: 20px;
+	max-width: 90%;
+}
