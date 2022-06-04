@@ -4,10 +4,9 @@ const daysDisplay = document.querySelector(".days");
 // get the stored value in localStorage
 let dayVisited = Number(window.localStorage.getItem("visited"));
 
-if (dayVisited !== 0) {
-    let daysSince = number(Date.now()) - number(dayVisited);
-} else {
+if (dayVisited == 0) {
     localStorage.setItem("visited", Date.now());
 }
+let daysSince = Date.now() - dayVisited;
 
-daysDisplay.textContent = daysSince;
+daysDisplay.textContent = Math.round(daysSince / (1000 * 3600 * 24));
