@@ -1,6 +1,6 @@
 h1, h2, h3 { font-family: 'Montserrat', 'Open Sans', sans-serif; }
 
-ul, p, a { 
+ul, p, a, label, legend, input, span { 
 	font-family: 'Roboto', 'Open Sans', sans-serif; 
 }
 #meetandgreet {
@@ -18,24 +18,31 @@ ul, p, a {
 }
 header {
 	background-color: #EFE9CE;
-	display: flex;
-	flex-flow: row;
+	display: grid;
+	grid-template-columns: 20% 1fr 8% 8%;
+	grid-template-rows: 120px 1fr;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding-bottom: 10px;
 }
 .titledate {
+	padding-left: 20px;
 	display: flex;
-	flex-flow: column;
+	flex-flow: row;
 	align-items: center;
 	text-align: center;
-	justify-content: center;
 }
 .titledate p, .titledate h2 {
 	margin: 5px;
 }
+.titledate p {
+	padding-left: 40px;
+}
 nav {
+	grid-row: 2/3;
+	grid-column: 1/5;
 	background-color: #36454f;
 	margin: 0 auto;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
@@ -74,6 +81,8 @@ header img {
 	max-height: 100px;
 	padding-left: 10px;
 	padding-right: 10px;
+	grid-column: 1/2;
+	grid-row: 1/2;
 }
 header p {
 	padding-right: 10px;
@@ -192,3 +201,73 @@ picture img {
 	padding-bottom: 20px;
 	max-width: 90%;
 } 
+.thankyoucontent {
+	display: flex;
+	flex-flow: column;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+fieldset {
+	margin-top: 15px;
+	background-color: #efe9ce97;
+}
+.form-flex {
+	border: none;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.subform-grid1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	justify-items: center;
+}
+.subform-grid1 label {
+	width: 220px;
+	margin-top: 10px;
+}
+legend {
+	font-size: 1.2em;
+}
+.subform-grid2 {
+	display: flex;
+	flex-flow: column;
+}
+.subform-grid2 label {
+	margin-top: 10px;
+}
+.subform-grid2 span {
+	margin-left: 17px;
+	margin-top: 2px;
+}
+textarea {
+	resize: none;
+	width: 99%;
+}
+.confirm {
+	display: flex;
+	flex-flow: column;
+}
+form {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+.submitbutton {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #efe9ce97;
+	border-radius: 5px;
+}
+.submitbutton:hover {
+	background-color: #36454f;
+	color: white;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Join</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Arco Chamber of Commerce site join page. Pick a membership level from the options."/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+  <body>
+    <div class="banner" id="meetandgreet">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    <header>
+        <img src="images/logo.webp" alt="logo for chamber of commerce site"/>
+        <div class="titledate">
+            <h2>Arco Chamber of Commerce</h2>
+            <p id="thedate"></p>
+        </div>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="discover.html">Discover</a>
+            </li>
+            <li>
+                <a href="join.html">Join</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+      </nav>
+      <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+      <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+      </header>
+      <main class="form-flex">
+        <h3>* indicates required field</h3>
+        <form method="get" action="thankyou.html">
+            <fieldset class="subform-grid1">
+                <legend>Applicant Info</legend>
+                <label>First Name* <input type="text" name="fname" placeholder="John" required="required"></label>
+                <label>Last Name* <input type="text" name="lname" placeholder="Smith" required="required"></label>
+                <label>Title <input type="text" pattern="[A-Za-z -]{7,}" name="title"></label>
+                <label>Email* <input type="email" name="email" placeholder="user@email.com" required="required"></label>
+                <label>Phone* <input type="tel" name="phone" placeholder="(000)-000-0000" required="required"></label>
+                <label>Business Name* <input type="text" name="bname" placeholder="Company, LLC" required="required"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Describe Your Business</legend>
+                <label>
+                <textarea name="description" rows="3"></textarea>
+                </label>
+            </fieldset>
+
+            <fieldset class="subform-grid2">
+                <legend>Membership Level</legend>
+                    <label><input type="radio" name="audience" value="np"> NP Membership</label>
+                    <span>Free - for non-profit organizations only. Become a full access member.</span>
+                    <label><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
+                    <span>$25/month. Become a limited-access member with benifits including event scheduling, networking event access, and more.</span>
+                    <label><input type="radio" name="audience" value="silver"> Silver Membership</label>
+                    <span>$50/month. Become a full-access member with unlimited event scheduling and 10 free tickets to Arco Chamber of Commerce-sponsored events.</span>
+                    <label><input type="radio" name="audience" value="gold"> Gold Membership</label>
+                    <span>$95/month. Feature your organization on the website home page, and have all-inclusive access to all events sponsored by the Arco Chamber of Commerce.</span>
+            </fieldset>
+
+            <fieldset class="confirm">
+                <legend>Confirm and Apply</legend>
+                <label><input type="checkbox" id="agreemail" name="agreemail"> I would like to receive emails related to the Black Forest Chamber of Commerce.</label>
+                <label><input type="checkbox" id="agreeconditions" name="agreeconditions" required="required"> I have read and agree to the conditions of membership for the Black Forest Chamber of Commerce.*</label>
+            </fieldset>
+            
+            <input type="hidden" name="loaddate" id="loaddate">
+
+
+            <input type="submit" value="Apply for Membership" class="submitbutton">
+    
+        </form>
+      </main>
+      <footer>
+        <div>City of Arco, 302 W Grand Ave. Arco, ID 83213</div>
+        <a href="https://www.google.com/maps/place/Arco,+ID+83213/@43.6333811,-113.3095708,15z/data=!3m1!4b1!4m5!3m4!1s0x5355f98b91dc53dd:0x8b10aa6044ec2c49!8m2!3d43.6365693!4d-113.3002844" target="_blank">See a Map</a>    
+        <img src="images/logo.webp" height="70" alt="logo for chamber of commerce site"/>
+        <div>
+            &copy; <span id="copyyear"></span> Arco Chamber of Commerce | Noah Cluff | WDD 230 Project | 
+            <span id="dateandtime"></span>
+        </div>
+    </footer>
+    <script src="js/sitescript.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/join.js"></script>
+  </body>
+</html>

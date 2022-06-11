@@ -60,4 +60,13 @@
 		margin: 0;
 		width: 90%;
 	}
+	.form-flex {
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+	.subform-grid1 label {
+		width: auto;
+		justify-self: right;
+		margin-right: 15%;
+	}
 }
