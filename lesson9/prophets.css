@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(0, 0, 0, 0.091);
+}
+h1, section {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.266);
+    border: 2px solid rgba(0, 0, 0, 0.9);
+}
+h1 {
+    line-height: 70px;
+}
+div {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    
+}
+section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+}
+img {
+    max-width: 100%;
+}
+p {
+    margin-top: 0px;
+}
