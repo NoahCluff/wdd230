@@ -1,0 +1,67 @@
+{
+    "directory": [
+      {
+        "image": "images/intel.png",
+        "business": "Intel",
+        "address": "2200 Mission College Blvd, Santa Clara, CA",
+        "phone": "(877) 811-2574",
+        "website": "https://www.intel.com/"
+      },
+      {
+        "image": "images/microsoft.png",
+        "business": "Microsoft",
+        "address": "One Microsoft Way, Redmond, Washington 98052",
+        "phone": "(425) 706-7329",
+        "website": "https://www.microsoft.com/"
+      },
+      {
+        "image": "images/apple.png",
+        "business": "Apple",
+        "address": "One Apple Park Way; Cupertino, CA 95014",
+        "phone": "(800) 275-2273",
+        "website": "https://www.apple.com/"
+      },
+      {
+        "image": "images/coopernorman.png",
+        "business": "Cooper Norman",
+        "address": "1000 Riverwalk Drive, Suite 100, Idaho Falls, ID 83405",
+        "phone": "208.733.6581",
+        "website": "https://www.coopernorman.com/contact-us/"
+      },
+      {
+        "image": "images/deloitte.png",
+        "business": "Deloitte",
+        "address": "800 W Main St #1400, Boise, ID 83702",
+        "phone": "(208) 342-9361",
+        "website": "https://www2.deloitte.com"
+      },
+      {
+        "image": "images/pwc.png",
+        "business": "PWC",
+        "address": "1 National Life Drive, Montpelier, Vermont 05602",
+        "phone": "(646) 471 4000",
+        "website": "https://www.pwc.com"
+      },
+      {
+        "image": "images/kpmg.png",
+        "business": "KPMG",
+        "address": "205 N 10th St #600, Boise, ID 83702",
+        "phone": "(208) 389-6500",
+        "website": "https://home.kpmg/xx/en/home.html"
+      },
+      {
+        "image": "images/ey.png",
+        "business": "EY",
+        "address": "5 Times Square, 14th Floor, New York, NY 10036",
+        "phone": "816 474 5200",
+        "website": "https://www.ey.com/en_us"
+      },
+      {
+        "image": "images/tesla.png",
+        "business": "Tesla",
+        "address": "1 Tesla Road Austin, TX 78725",
+        "phone": "(801) 401-4135",
+        "website": "https://www.tesla.com/"
+      }
+    ]
+  }

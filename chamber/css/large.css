@@ -69,4 +69,9 @@
 		justify-self: right;
 		margin-right: 15%;
 	}
+	#directory-list section {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-column-gap: 10px;
+	}
 }
