@@ -12,7 +12,10 @@ fetch(
     var temp = Math.round(data["main"]["temp"]);
     var wind = Math.round(data["wind"]["speed"]);
     var chill = Math.round(35.74 + (0.6215 * temp) - (35.75*Math.pow(wind,0.16)) + (0.4275 * temp * Math.pow(wind,0.16)));
+    var icon = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
 
+    document.getElementById("weather-icon").setAttribute("src", icon);
+    document.getElementById("weather-icon").setAttribute("alt", desc);
     document.getElementById("description").innerHTML = desc;
     document.getElementById("temperature").innerHTML = temp + "&deg; F";
     document.getElementById("windspeed").innerHTML = "Wind Speed: " + wind + " MPH";
