@@ -126,21 +126,30 @@ main {
 	background-color: #efe9ce97;
 	min-height: 200px;
 	min-width: 90%;
+	text-align: center;
 }
+#event img, #join img, #news img {
+	width: 100%;
+}
+
 #spotlight {
 	min-height: 450px;
 	min-width: 90%;
 	display: flex;
 	flex-flow: column;
-	justify-content: center;
 }
-#spot1, #spot2, #spot3 {
+#spotlight section {
 	border: 1px solid rgba(0, 0, 0, 0.5);
-	height: 200px;
 	margin: 0;
 	padding: 10px;
 }
-#spot3 {
+#spotlight section img {
+	display: block;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#spotlight section:nth-child(3n) {
 	display: none;
 }
 #hero {
@@ -168,7 +177,7 @@ main {
 	border: 3px solid rgba(0, 0, 0, 0.9);
 }
 picture img {
-	min-width: 100%;
+	width: 100%;
 }
 #weather {
 	display: flex;

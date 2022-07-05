@@ -5,63 +5,81 @@
         "business": "Intel",
         "address": "2200 Mission College Blvd, Santa Clara, CA",
         "phone": "(877) 811-2574",
-        "website": "https://www.intel.com/"
+        "website": "www.intel.com",
+        "membership": "Bronze",
+        "quote": "'Making not-so-tasty chips.'"
       },
       {
         "image": "images/microsoft.png",
         "business": "Microsoft",
         "address": "One Microsoft Way, Redmond, Washington 98052",
         "phone": "(425) 706-7329",
-        "website": "https://www.microsoft.com/"
+        "website": "www.microsoft.com",
+        "membership": "Silver",
+        "quote": "'Tech is what we do best.'"
       },
       {
         "image": "images/apple.png",
         "business": "Apple",
         "address": "One Apple Park Way; Cupertino, CA 95014",
         "phone": "(800) 275-2273",
-        "website": "https://www.apple.com/"
+        "website": "www.apple.com",
+        "membership": "Gold",
+        "quote": "'Customer satisfaction is our #2 priority.'"
       },
       {
         "image": "images/coopernorman.png",
         "business": "Cooper Norman",
         "address": "1000 Riverwalk Drive, Suite 100, Idaho Falls, ID 83405",
         "phone": "208.733.6581",
-        "website": "https://www.coopernorman.com/contact-us/"
+        "website": "www.coopernorman.com",
+        "membership": "NP",
+        "quote": "'Public accounting at its finest.'"
       },
       {
         "image": "images/deloitte.png",
         "business": "Deloitte",
         "address": "800 W Main St #1400, Boise, ID 83702",
         "phone": "(208) 342-9361",
-        "website": "https://www2.deloitte.com"
+        "website": "www.deloitte.com",
+        "membership": "Bronze",
+        "quote": "'Just the number 1 accounting firm.'"
       },
       {
         "image": "images/pwc.png",
         "business": "PWC",
         "address": "1 National Life Drive, Montpelier, Vermont 05602",
         "phone": "(646) 471 4000",
-        "website": "https://www.pwc.com"
+        "website": "www.pwc.com",
+        "membership": "Silver",
+        "quote": "'We audit Nike, that's pretty cool.'"
       },
       {
         "image": "images/kpmg.png",
         "business": "KPMG",
         "address": "205 N 10th St #600, Boise, ID 83702",
         "phone": "(208) 389-6500",
-        "website": "https://home.kpmg/xx/en/home.html"
+        "website": "www.kpmg.com",
+        "membership": "Gold",
+        "quote": "'We cheated on ethics exams, but not as bad as EY.'"
       },
       {
         "image": "images/ey.png",
         "business": "EY",
         "address": "5 Times Square, 14th Floor, New York, NY 10036",
         "phone": "816 474 5200",
-        "website": "https://www.ey.com/en_us"
+        "website": "www.ey.com",
+        "membership": "NP",
+        "quote": "'Who needs to pass the ethics exams?'"
       },
       {
         "image": "images/tesla.png",
         "business": "Tesla",
         "address": "1 Tesla Road Austin, TX 78725",
         "phone": "(801) 401-4135",
-        "website": "https://www.tesla.com/"
+        "website": "www.tesla.com",
+        "membership": "Bronze",
+        "quote": "'Cool cars are our thing.'"
       }
     ]
   }
