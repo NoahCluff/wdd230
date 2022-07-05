@@ -41,6 +41,9 @@
 		grid-row: 3;
 		min-width: 0;
 	}
+	#event, #join {
+		padding-top: 30px;
+	}
 	#news {
 		grid-column: 2/3;
 		grid-row: 3;
