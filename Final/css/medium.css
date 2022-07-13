@@ -1,0 +1,26 @@
+@media only screen and (min-width: 37.5em) {
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 auto; } 
+
+    .header-grid {
+        grid-template-columns: 80px 1fr;
+    }
+    .header-grid img {
+        height: 50px;
+    }
+    header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .section3 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    .section2 {
+        grid-column: 1/3;
+    }
+}
