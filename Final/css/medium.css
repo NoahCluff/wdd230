@@ -6,7 +6,10 @@
         grid-template-columns: 80px 1fr;
     }
     .header-grid img {
-        height: 50px;
+        height: 70px;
+    }
+    nav ul li a {
+        line-height: 75px;
     }
     header {
         padding-top: 20px;
