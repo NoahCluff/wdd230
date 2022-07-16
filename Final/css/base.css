@@ -7,7 +7,6 @@ body {
 }
 header {
     background-color: #E9EACF;
-    box-shadow: 0 4px 2px -2px gray;
 }
 .header-grid {
     display: grid;
@@ -45,7 +44,7 @@ nav ul li a:hover {
 .responsive li {
 	display: block;
 }
-main {
+#index-main {
     display: grid;
     
 }
@@ -113,4 +112,33 @@ footer {
     align-items: center;
     padding-bottom: 20px;
     background-color: #D3B496;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    color: #D8D8AE;
+}
+.cards {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #E9EACF;
+    width: 100%;
+    display: grid;
+    grid-gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.cards section {
+    display: flex;
+    flex-flow: column;
+    padding-top: 15px;
+    background-color: #D3B496;
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    align-items: center;
+}
+.cards section img, .cards section p {
+    max-width: 90%;
 }

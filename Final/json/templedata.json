@@ -1,85 +1,52 @@
-{
-    "temples": [
+{ 
+  "temples": [
       {
-        "image": "images/intel.png",
-        "business": "Intel",
-        "address": "2200 Mission College Blvd, Santa Clara, CA",
-        "phone": "(877) 811-2574",
-        "website": "www.intel.com",
-        "membership": "Bronze",
-        "quote": "'Making not-so-tasty chips.'"
+        "img": "images/detroit.png",
+        "name": "Detroit Michigan Temple",
+        "address": "37425 Woodward Ave, Bloomfield Hills MI 48304, United States",
+        "phone": "248-593-0690",
+        "message": "https://www.churchofjesuschrist.org/temples/details/detroit-michigan-temple?lang=eng",
+        "services": "None",
+        "history": "Dedicated on 23 October 1999.",
+        "oschedule": "by appointment",
+        "sschedule": "by appointment",
+        "cschedule": "8/20/22, 10/1/22, 10/10/22 - 10/24/22, 11/23/22 - 11/24/22, 12/24/22, 12/31/22"
       },
       {
-        "image": "images/microsoft.png",
-        "business": "Microsoft",
-        "address": "One Microsoft Way, Redmond, Washington 98052",
-        "phone": "(425) 706-7329",
-        "website": "www.microsoft.com",
-        "membership": "Silver",
-        "quote": "'Tech is what we do best.'"
+        "img": "images/temple.png",
+        "name": "Portland Oregon Temple",
+        "address": "13600 Kruse Oaks Blvd, Lake Oswego OR 97035-8602, United States",
+        "phone": "503-639-7066",
+        "message": "https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple?lang=eng",
+        "services": "Clothing rental, distribution center",
+        "history": "Dedicated on 19 August 1989.",
+        "oschedule": "by appointment",
+        "sschedule": "by appointment",
+        "cschedule": "7/18/22 - 8/15/22, 10/1/22, 11/23/22, 11/24/22, 12/25/22, 12/31/22"
       },
       {
-        "image": "images/apple.png",
-        "business": "Apple",
-        "address": "One Apple Park Way; Cupertino, CA 95014",
-        "phone": "(800) 275-2273",
-        "website": "www.apple.com",
-        "membership": "Gold",
-        "quote": "'Customer satisfaction is our #2 priority.'"
+        "img": "images/saltlake.png",
+        "name": "Salt Lake Temple",
+        "address": "50 W North Temple, Salt Lake City Utah 84013, United States",
+        "phone": "N/A, under renovation",
+        "message": "https://www.churchofjesuschrist.org/learn/salt-lake-temple?lang=eng",
+        "services": "N/A, under renovation",
+        "history": "Dedicated on 6 April 1893.",
+        "oschedule": "N/A, under renovation",
+        "sschedule": "N/A, under renovation",
+        "cschedule": "Closed until further notice."
       },
       {
-        "image": "images/coopernorman.png",
-        "business": "Cooper Norman",
-        "address": "1000 Riverwalk Drive, Suite 100, Idaho Falls, ID 83405",
-        "phone": "208.733.6581",
-        "website": "www.coopernorman.com",
-        "membership": "NP",
-        "quote": "'Public accounting at its finest.'"
-      },
-      {
-        "image": "images/deloitte.png",
-        "business": "Deloitte",
-        "address": "800 W Main St #1400, Boise, ID 83702",
-        "phone": "(208) 342-9361",
-        "website": "www.deloitte.com",
-        "membership": "Bronze",
-        "quote": "'Just the number 1 accounting firm.'"
-      },
-      {
-        "image": "images/pwc.png",
-        "business": "PWC",
-        "address": "1 National Life Drive, Montpelier, Vermont 05602",
-        "phone": "(646) 471 4000",
-        "website": "www.pwc.com",
-        "membership": "Silver",
-        "quote": "'We audit Nike, that's pretty cool.'"
-      },
-      {
-        "image": "images/kpmg.png",
-        "business": "KPMG",
-        "address": "205 N 10th St #600, Boise, ID 83702",
-        "phone": "(208) 389-6500",
-        "website": "www.kpmg.com",
-        "membership": "Gold",
-        "quote": "'We cheated on ethics exams, but not as bad as EY.'"
-      },
-      {
-        "image": "images/ey.png",
-        "business": "EY",
-        "address": "5 Times Square, 14th Floor, New York, NY 10036",
-        "phone": "816 474 5200",
-        "website": "www.ey.com",
-        "membership": "NP",
-        "quote": "'Who needs to pass the ethics exams?'"
-      },
-      {
-        "image": "images/tesla.png",
-        "business": "Tesla",
-        "address": "1 Tesla Road Austin, TX 78725",
-        "phone": "(801) 401-4135",
-        "website": "www.tesla.com",
-        "membership": "Bronze",
-        "quote": "'Cool cars are our thing.'"
+        "img": "images/bern.png",
+        "name": "Bern Switzerland Temple",
+        "address": "Tempelstrasse 2, CH-3052 Zollikofen, Switzerland",
+        "phone": "(41) 31-915-5252",
+        "message": "https://www.churchofjesuschrist.org/temples/details/bern-switzerland-temple?lang=eng",
+        "services": "Clothing rental, patron housing, distribution center",
+        "history": "Dedicated on 23 October 1999.",
+        "oschedule": "by appointment",
+        "sschedule": "by appointment",
+        "cschedule": "8/20/22, 10/1/22, 10/10/22 - 10/24/22, 11/23/22 - 11/24/22, 12/24/22, 12/31/22, 4/10/23 - 4/24/23, 10/9/23 - 10/23/23"
       }
     ]
   }
