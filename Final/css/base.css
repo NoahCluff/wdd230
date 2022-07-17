@@ -142,3 +142,41 @@ footer a:hover {
 .cards section img, .cards section p {
     max-width: 90%;
 }
+#reservation-main {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 280px;
+    display: grid;
+    text-align: center;
+}
+.subform-grid {
+    display: grid;
+    margin-bottom: 40px;
+}
+fieldset label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+fieldset legend {
+    font-size: 1.2em;
+}
+label input {
+    margin-top: 10px;
+}
+#special {
+    height: 80px;
+}
+.submitbutton {
+    background-color: #D3B496;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+.submitbutton:hover {
+    background-color: white;
+}

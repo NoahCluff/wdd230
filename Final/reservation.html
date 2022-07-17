@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Temples</title>
+    <title>Reservations</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="templeinnandsuitesholidays.com The Temple Inn & Suites temples page to see relevant info about temples."/>
+    <meta name="description" content="templeinnandsuitesholidays.com The Temple Inn & Suites reservations page, where you can book a stay with us."/>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/medium.css"/>
     <link rel="stylesheet" href="css/large.css"/>
@@ -34,9 +34,27 @@
             </ul>
         </nav>
     </header>
-    <main id="temple-main">
-        <article class="cards">
-        </article>
+    <main id="reservation-main">
+        <h3>* indicates required field</h3>
+        <form name="myForm" method="get">
+            <fieldset class="subform-grid">
+                <legend>Guest Information</legend>
+                <label>First Name* <br><input type="text" name="fname" placeholder="John" required="required"></label>
+                <label>Last Name* <br><input type="text" name="lname" placeholder="Smith" required="required"></label>
+                <label>Email* <br><input type="email" name="email" placeholder="user@email.com" required="required"></label>
+                <label>Phone <br><input type="tel" name="phone" placeholder="(000)-000-0000"></label>
+                <label>Home State/Country <br><input type="text" name="home"></label>
+            </fieldset>
+
+            <fieldset class="subform-grid subform2">
+                <legend>Room Request</legend>
+                <label>Number of Rooms Desired:* <br><input type="text" name="home" required="required"></label>
+                <label>Number of Beds Desired in Each Room:* <br><input type="text" name="home" required="required"></label>
+                <label>Please Explain Any Special Accomodations <br><input type="text" name="home" id="special"></label>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitbutton">
+    
+        </form>
     </main>
     <footer>
     
@@ -50,6 +68,5 @@
             <span id="dateandtime"></span>
     </footer>
     <script src="js/sitescript.js"></script>
-    <script src="js/templelist.js"></script>
   </body>
 </html>

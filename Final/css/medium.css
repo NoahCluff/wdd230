@@ -32,4 +32,7 @@
     .cards section {
         inline-size: 550px;
     }
+    #reservation-main {
+        width: 400px;
+    }
 }
