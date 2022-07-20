@@ -180,3 +180,40 @@ label input {
 .submitbutton:hover {
     background-color: white;
 }
+#services-main {
+    display: grid;
+    text-align: center;
+    justify-items: stretch;
+}
+#services-main h2 {
+    background-color: #E9EACF;
+    line-height: 100px;
+    margin: 0px;
+}
+#amenities-list {
+    height: 200px;
+    background-color: #D8D8AE;
+}
+.sub {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.sub a {
+    text-decoration: none;
+    color: black;
+    background-color: #E9EACF;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.sub a:hover {
+    color: white;
+    background-color: #D3B496;
+}
+.reception {
+    background-color: #D3B496;
+}
+.missionary {
+    background-color: #D8D8AE;
+}
+
